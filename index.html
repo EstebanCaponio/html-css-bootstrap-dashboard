@@ -68,7 +68,7 @@
     <!-- main -->
     <main>
         <!-- main container -->
-        <div class="container">
+        <div class="container p-0">
             <div class="row">
                 <!-- box1 -->
                 <div class="col-12 col-lg-9">
@@ -90,7 +90,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">I pilastric della terra</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
@@ -99,7 +99,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">I promessi sposi</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
@@ -108,7 +108,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Il signore degli anelli</td>
                                 <td class="d-none d-md-table-cell"> 18/10/2023</td>
                                 <td><span class="badge text-bg-warning text-light">In prestito</span></td>
@@ -117,7 +117,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Harry Potter e la pietra filosofale</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
@@ -126,7 +126,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Il codice Da Vinci</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-danger">Non disponibile</span></td>
@@ -135,7 +135,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Shining</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
@@ -144,7 +144,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">La divina commedia</td>
                                 <td class="d-none d-md-table-cell"> 21/09/2023</td>
                                 <td><span class="badge text-bg-warning text-light">In prestito</span></td>
@@ -153,7 +153,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Il trono di spade</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
@@ -162,7 +162,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Il mondo di Sofia</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-danger">Non disponibile</span></td>
@@ -171,7 +171,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Le cronache di Narnia: il leone, la strega e l'armadio</td>
                                 <td class="d-none d-md-table-cell"> 27/07/2023</td>
                                 <td><span class="badge text-bg-warning text-light">In prestito</span></td>
@@ -180,7 +180,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">Il piccolo principe</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
@@ -189,7 +189,7 @@
                                     <i class="fa-solid fa-trash p-2 border border-2 border-dark rounded-2"></i>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="align-middle">
                                 <td scope="row">La storia infinita</td>
                                 <td class="d-none d-md-table-cell">-</td>
                                 <td><span class="badge text-bg-success">Disponibile</span></td>
@@ -203,7 +203,64 @@
                 </div>
                 <!-- box2 -->
                 <div class="col-12 col-lg-3">
-                    box 2
+                    <div class="container-fluid">
+                        <div class="row row border rounded-2">
+                            <div class="border-bottom pt-1">
+                                <h3 class="fw-normal">F.A.Q.</h3>
+                            </div>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Come aggiungere un nuovo libro?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Come posso accedere all'anagrafica utenti?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            second item's accordion body. Let's imagine this being filled with some
+                                            actual content.</div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Posso usare questa dashboard da mobile?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            third item's accordion body. Nothing more exciting happening here in terms
+                                            of content, but just filling up the space to make it look, at least at first
+                                            glance, a bit more representative of how this would look in a real-world
+                                            application.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

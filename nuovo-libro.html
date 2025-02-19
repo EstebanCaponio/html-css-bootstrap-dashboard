@@ -88,7 +88,7 @@
                 <div class="row">
                     <div class="mb-3 col-12">
                         <label for="titolo" class="form-label">Titolo</label>
-                        <input type="password" id="titolo" class="form-control"
+                        <input type="text" id="titolo" class="form-control"
                             placeholder="Inserisci il titolo del libro" aria-describedby="versione-ita">
                         <div id="versione-ita" class="form-text">
                             Titolo versione italiana
@@ -96,7 +96,29 @@
                     </div>
                 </div>
 
-                
+                <div class="row mb-5">
+                    <div class="col-12 col-md-4 mb-3">
+                        <label for="genere" class="form-label">Genere</label>
+                        <select class="form-select" aria-label="Default select example" id="genere">
+                            <option selected>Scegli il genere</option>
+                            <option value="1">one</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <label for="pubblicazione" class="form-label">Anno di Pubblicazione</label>
+                        <input type="text" id="pubblicazione" class="form-control" placeholder="Inserisci l'anno">
+                    </div>
+                    <div class="col-12 col-md-4 mb-3">
+                        <label for="isbn" class="form-label">ISBN#</label>
+                        <input type="text" id="isbn" class="form-control" placeholder="Inserisci il codice ISBN#">
+                    </div>
+                </div>
+
+                <hr>
+
+
             </div>
         </div>
     </main>
